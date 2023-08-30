@@ -11,4 +11,4 @@
 6. Run `python3 -m streamlit run summarizer.py`
 
 # Video
-[KAP](VideoSummarizer/Kapture 2023-08-29 at 23.08.17.gif)
+<img src='Kapture 2023-08-29 at 23.08.17.gif' title='Video Demo' width='' alt='Video Walkthrough' />
