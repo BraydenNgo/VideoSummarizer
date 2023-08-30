@@ -1,11 +1,8 @@
 import streamlit as st
 from googleapiclient.discovery import build
 import youtube_transcript_api
-import os
 import openai
-import requests
 from dotenv import load_dotenv
-import time
 import config
 
 
@@ -46,7 +43,6 @@ def chatgpt_summary(video_title, transcript):
 
     return completion
 
-
 def main():
     st.title('Youtube Video Summarizer')
     YOUTUBE_API_KEY = config.YOUTUBE_API_KEY
@@ -70,7 +66,5 @@ def main():
         else:
             st.warning("You must provide a Youtube URL")
     
-                
-
 if __name__ == "__main__":
     main()
