@@ -9,3 +9,6 @@
 4. Set the API Keys in the `config.py` file
 5. Install any necessary packages
 6. Run `python3 -m streamlit run summarizer.py`
+
+# Video
+[KAP](Kapture 2023-08-29 at 23.08.17.gif)
